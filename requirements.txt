@@ -1,0 +1,10 @@
+streamlit
+gdown
+Pillow
+torch
+torchvision
+opencv-python
+streamlit-image-comparison
+streamlit-image-crop
+torchmetrics[image]
+pytorch-msssim
