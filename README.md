@@ -62,4 +62,4 @@ Users can upload a blurry image, select a model, adjust parameters, and view the
 - Source code: [GitHub Repository](https://github.com/Phuongtna1/GSU25AI07-Deblur-app)
 - Live app: [Streamlit Web App](https://gsu25ai07-deblur-app-su25ai18.streamlit.app/)
 - Training notebook: [Kaggle Notebook](https://www.kaggle.com/code/nguyenviettuankiet/main-deblurring-image-using-generative-ai/notebook)
-- Model archive (view-only): [Google Drive](https://drive.google.com/file/d/11VfSHDzpWC9rPdXCCAJ-J_3n-XJHG4nl/view)
+- Models' weight: [Google Drive](https://drive.google.com/file/d/11VfSHDzpWC9rPdXCCAJ-J_3n-XJHG4nl/view)
