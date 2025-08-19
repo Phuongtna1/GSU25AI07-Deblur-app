@@ -29,7 +29,7 @@ orig = not (st.sidebar.checkbox('Resize to 256x256', value=False))
 
 
 # Image file uploader
-uploaded_file = st.file_uploader("", type=["png", "jpg", "jpeg"])
+uploaded_file = st.file_uploader("Upload an Image", type=["png", "jpg", "jpeg"], label_visibility="hidden")
 if uploaded_file is not None:
     image_bytes = uploaded_file.read()
     blur_img = Image.open(io.BytesIO(image_bytes)).convert('RGB')
@@ -184,5 +184,6 @@ if (uploaded_file is not None) and (model_name is not None):
     )
 else:
     st.info("Please select a model")
+
 
 
