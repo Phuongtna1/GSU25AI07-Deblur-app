@@ -1,5 +1,4 @@
 import os
-import cv2
 import math
 import gdown
 import torch
@@ -201,15 +200,6 @@ def predict(blur_img, model_name, model_options, trans_size, device, orig=False,
         st.write(f"Image size: {sharpened.size}")
     return sharpened
 
-
-def laplacian(img):
-    lap_variance = cv2.Laplacian(cv2.cvtColor(
-        np.array(img), cv2.COLOR_RGB2GRAY), cv2.CV_64F).var()
-    return lap_variance
-
-# app.py
-
-
 def synchronized_crop_zooms(image1, image2):
     def reset_zoom_callback():
         st.session_state.zoom_factor = 1.0
@@ -356,3 +346,4 @@ def adjust_image(image):
         adjusted_img = Image.fromarray(
             (shifted_img * 255).astype(np.uint8))
     return adjusted_img
+
