@@ -7,5 +7,6 @@ opencv-python
 streamlit-image-comparison
 streamlit-image-crop
 torchmetrics[image]
-protobuf
+protobuf==3.20.3
 pytorch-msssim
+
