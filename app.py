@@ -50,7 +50,7 @@ if (uploaded_file is not None) and (crop_enabled is True):  # Use 'is True' for 
     # Check if cropping was successful (image_crop returns None if user doesn't crop)
     if cropped_blur_img:
         # Update blur_img to the cropped version for downstream processing
-        blur_img = cropped_blur_img
+        blur_img = Image.open(io.BytesIO(cropped_blur_img)).convert("RGB")
         st.write(f"Image's size: {blur_img.size}")
         st.image(np.array(blur_img), caption="Cropped Original Image",
                  use_container_width=False)
@@ -184,4 +184,5 @@ if (uploaded_file is not None) and (model_name is not None):
     )
 else:
     st.info("Please select a model")
+
 
