@@ -2,6 +2,8 @@
 
 A Streamlit-based web application for deblurring single-blur images using deep learning and diffusion models.
 
+<img width="1256" height="938" alt="image" src="https://github.com/user-attachments/assets/6e936f42-f5cd-48b6-9c13-9c8a1e701591" />
+
 ## 🌐 Live Demo
 
 Try the app here: [Deblur Web App](https://gsu25ai07-deblur-app-su25ai18.streamlit.app/)
@@ -25,13 +27,18 @@ Users can upload a blurry image, select a model, adjust parameters, and view the
 
 - Upload and crop blurry images
 - Resize or keep original dimensions
+  
   <img width="1259" height="917" alt="image" src="https://github.com/user-attachments/assets/2301a422-a49b-4d78-a4c1-c197cd035684" />
+  
 - Choose model and sampling method (DDPM or DDIM)
 - Adjust parameters: `num_steps`, `eta`
 - Compare original vs. deblurred image with slider
+- 
   <img width="1246" height="742" alt="image" src="https://github.com/user-attachments/assets/48aceae4-1afb-4854-9410-2c0e8541422c" />
+  
 - Zoom and adjust brightness/hue
 - Download processed image
+  
 <img width="1256" height="743" alt="image" src="https://github.com/user-attachments/assets/58d3904a-045a-4490-9111-2ae9763d53c1" />
 
 ## 📁 Project Structure
