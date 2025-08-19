@@ -25,11 +25,14 @@ Users can upload a blurry image, select a model, adjust parameters, and view the
 
 - Upload and crop blurry images
 - Resize or keep original dimensions
+  <img width="1259" height="917" alt="image" src="https://github.com/user-attachments/assets/2301a422-a49b-4d78-a4c1-c197cd035684" />
 - Choose model and sampling method (DDPM or DDIM)
 - Adjust parameters: `num_steps`, `eta`
 - Compare original vs. deblurred image with slider
+  <img width="1246" height="742" alt="image" src="https://github.com/user-attachments/assets/48aceae4-1afb-4854-9410-2c0e8541422c" />
 - Zoom and adjust brightness/hue
 - Download processed image
+<img width="1256" height="743" alt="image" src="https://github.com/user-attachments/assets/58d3904a-045a-4490-9111-2ae9763d53c1" />
 
 ## 📁 Project Structure
 
