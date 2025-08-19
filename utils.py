@@ -166,7 +166,7 @@ def detransform(tensor, mean, std, original_size=None):
     return tensor_copy
 
 
-@st.cache_data
+@st.cache
 def predict(blur_img, model_name, model_options, trans_size, device, orig=False, sampler="DDIM", num_steps=None, eta=None):
     # Define mean and standard deviation for image normalization
     mean = torch.tensor([0.5]*3)
@@ -346,5 +346,6 @@ def adjust_image(image):
         adjusted_img = Image.fromarray(
             (shifted_img * 255).astype(np.uint8))
     return adjusted_img
+
 
 
