@@ -56,10 +56,10 @@ Users can upload a blurry image, select a model, adjust parameters, and view the
 - Six `.pth` files are packaged into a single `models.zip` (~500MB)
 - Stored on Google Drive
 - Automatically downloaded and extracted on first app launch
-
+- Models' weight: [Google Drive](https://drive.google.com/file/d/11VfSHDzpWC9rPdXCCAJ-J_3n-XJHG4nl/view)
+  
 ## 🚀 Deployment
 
 - Source code: [GitHub Repository](https://github.com/Phuongtna1/GSU25AI07-Deblur-app)
 - Live app: [Streamlit Web App](https://gsu25ai07-deblur-app-su25ai18.streamlit.app/)
 - Training notebook: [Kaggle Notebook](https://www.kaggle.com/code/nguyenviettuankiet/main-deblurring-image-using-generative-ai/notebook)
-- Models' weight: [Google Drive](https://drive.google.com/file/d/11VfSHDzpWC9rPdXCCAJ-J_3n-XJHG4nl/view)
