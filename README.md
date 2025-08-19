@@ -2,11 +2,11 @@
 
 A Streamlit-based web application for deblurring single-blur images using deep learning and diffusion models.
 
-<img width="1256" height="938" alt="image" src="https://github.com/user-attachments/assets/6e936f42-f5cd-48b6-9c13-9c8a1e701591" />
-
 ## 🌐 Live Demo
 
 Try the app here: [Deblur Web App](https://gsu25ai07-deblur-app-su25ai18.streamlit.app/)
+
+<img width="1256" height="938" alt="image" src="https://github.com/user-attachments/assets/6e936f42-f5cd-48b6-9c13-9c8a1e701591" />
 
 ## 📌 Project Overview
 
