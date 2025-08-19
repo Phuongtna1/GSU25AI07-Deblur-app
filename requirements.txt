@@ -5,11 +5,7 @@ torch
 torchvision
 opencv-python
 streamlit-image-comparison
-streamlit-image-crop
+streamlit-cropperjs
 torchmetrics[image]
 protobuf==3.20.3
 pytorch-msssim
-
-
-
-
