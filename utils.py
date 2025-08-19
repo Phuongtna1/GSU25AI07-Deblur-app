@@ -85,7 +85,7 @@ def setup_models(model_names, drive_id, zip_path, extract_path):
     return model_options
 
 
-@st.cache_resource
+@st.cache
 def load_checkpoint(model_name, model_options, device):
     filepath = model_options[model_name]
     print(f"Loading checkpoint from {filepath}")
@@ -346,4 +346,5 @@ def adjust_image(image):
         adjusted_img = Image.fromarray(
             (shifted_img * 255).astype(np.uint8))
     return adjusted_img
+
 
