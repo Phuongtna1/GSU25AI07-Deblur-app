@@ -5,8 +5,7 @@ import torch
 import numpy as np
 from PIL import Image
 from streamlit_image_comparison import image_comparison
-# Assuming this is installed and works
-from streamlit_image_crop import image_crop
+from streamlit_cropperjs import st_cropperjs
 from torchvision import transforms
 import utils
 
@@ -47,7 +46,7 @@ if (uploaded_file is not None) and (crop_enabled is True):  # Use 'is True' for 
     st.info("Use mouse to choose the crop area")
     # Image dimensions
     # Store cropped image in a new variable
-    cropped_blur_img = image_crop(blur_img)
+    cropped_blur_img = st_cropperjs(pic=image_bytes, btn_text="Crop", key="crop_key")
     # Check if cropping was successful (image_crop returns None if user doesn't crop)
     if cropped_blur_img:
         # Update blur_img to the cropped version for downstream processing
@@ -185,3 +184,4 @@ if (uploaded_file is not None) and (model_name is not None):
     )
 else:
     st.info("Please select a model")
+
